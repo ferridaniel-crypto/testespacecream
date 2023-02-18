@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    font-size: 62.5%;
+    --fs-heading:4rem;
+    --ff-heading:'Staatliches', 'cursive';
+    --ff-body:'Palanquin', sans-serif;
+    --fc-heading: #fff;
+    --pc-body: #23053A;
+    
+}
+
+
+
+.page{
+    text-align: center;
+    background-color:#EFF1FF ;
+    max-width: 38.4rem;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    background-color:#8E9AAF ;
+    padding: 3.2rem auto 2.9rem;
+}
+
+header h1{
+    background-color: #CBC0D3;
+    font-size: var(--fs-heading);
+    font-family: var(--ff-heading);
+    color: var(--fc-heading);
+}
+
+
+
+main{
+    margin: 1.3rem 3.2rem 6.3rem;
+    display: grid;
+    gap: 3.6rem;
+}
+main img{
+    width: 100%;
+}
+
+main p{
+    font-family: var(--ff-body);
+    
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    width: 30.5rem;
+    color: var(--pc-body);
+    margin: 1.4rem auto 6.3rem;
+}
+
+.card{
+    position: relative;
+}
+
+.card span{
+    position: absolute;
+    color: black;
+    background-color: #FEEAFA;
+
+    font-family: var(--ff-heading);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    top: 1.6rem;
+    right: 1.6rem;
+    width: 11.2rem;
+    border-radius: 20px;
+    height: 3.5rem;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
